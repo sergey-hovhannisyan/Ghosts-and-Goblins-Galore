@@ -8,13 +8,12 @@ public class L1Main : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("DropBall", 1, 3);
+        InvokeRepeating("DropBall", 2, 2);
     }
 
     void DropBall()
     {
-        Vector3 spawnPos = new Vector3(13, 5, 8);
+        Vector3 spawnPos = new Vector3(13, 8, 8);
         Instantiate(ball, spawnPos, Quaternion.identity);
-        Destroy(gameObject, 5);
     }
 }
