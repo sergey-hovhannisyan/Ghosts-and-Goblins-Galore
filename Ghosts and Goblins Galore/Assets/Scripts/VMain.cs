@@ -17,7 +17,7 @@ public class VMain : MonoBehaviour
         InvokeRepeating("PlaySound", 1, 1);
 
         yield return new WaitForSeconds(9);
-        Vector2 spawnPos = new Vector2(0, 10);
+        Vector2 spawnPos = new Vector2(0, 12);
         Instantiate(confetti, spawnPos, Quaternion.identity);
         Instantiate(confetti, spawnPos, Quaternion.identity);
     }
