@@ -1329,7 +1329,11 @@ SpriteRenderer:
   m_Size: {x: 9.3, y: 3.26}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< HEAD
+  m_WasSpriteAssigned: 1
+=======
   m_WasSpriteAssigned: 0
+>>>>>>> main
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1415823832
