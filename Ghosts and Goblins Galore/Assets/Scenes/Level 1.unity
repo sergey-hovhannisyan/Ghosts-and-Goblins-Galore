@@ -11574,6 +11574,7 @@ GameObject:
   - component: {fileID: 983757006}
   - component: {fileID: 983757005}
   - component: {fileID: 983757010}
+  - component: {fileID: 983757011}
   m_Layer: 0
   m_Name: XPlayer
   m_TagString: Player
@@ -11611,7 +11612,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983757003}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11693,6 +11694,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 609d2b2cacbb34371a4774c9ce30a80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &983757011
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983757003}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &990963175
 GameObject:
   m_ObjectHideFlags: 0
@@ -24481,6 +24498,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2129275829}
     m_Modifications:
+    - target: {fileID: 3979795487376657015, guid: c82150e64b68b482b8213e55a1d87e5d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8700107092217931306, guid: c82150e64b68b482b8213e55a1d87e5d, type: 3}
       propertyPath: m_Avatar
       value: 
